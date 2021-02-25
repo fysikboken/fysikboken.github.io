@@ -1,5 +1,58 @@
 <HTML>
 <!-- Mirrored from static.sys.kth.se/sci/gm/bok/kap4/sida3/cp_ep.htm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Feb 2021 08:43:01 GMT -->
-<HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252"><TITLE>cp_ep</TITLE><META NAME="Version" CONTENT="8.0.3410"><META NAME="Date" CONTENT="10/11/96"><META NAME="Template" CONTENT="D:\Program\Microsoft Office\Office\HTML.DOT"></HEAD><BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff"><FONT FACE="Arial"><P>Lite eftertanke visar att ett villkor f&ouml;r att ljus ska vara linj&auml;rpolariserat &auml;r att nollst&auml;llen f&ouml;r x och y-komponenter intr&auml;ffar samtidigt</FONT><FONT FACE="Arial" COLOR="#ff0000">. (Annars skulle E-f&auml;ltet peka i x-riktningen n&auml;r y-komp har nollst&auml;lle och vice versa). </FONT><FONT FACE="Arial">De fasskillnader som &auml;r OK &auml;r allts&aring; 0 eller </FONT><FONT FACE="Symbol">p</FONT><FONT FACE="Arial"> (testa med matlabsnutten p&aring; huvudsidan). Ett viktigt specialfall intr&auml;ffar d&aring; fasskillnaden &auml;r ±</FONT><FONT FACE="Symbol">p</FONT><FONT FACE="Arial">/2 och ampliduden i x- och y-riktning &auml;r lika. Ljus som utbreder sig i z riktningen kan d&aring; skrivas</P><P><IMG SRC="Image363.gif" WIDTH=436 HEIGHT=32></P><P>R&auml;knar man ut l&auml;ngden av E-vektorn (Pythagoras sats) s&aring; ser man att denna &auml;r E0 (alltid och &ouml;verallt, dvs oberoende av t och z). Detta ska tolkas som att E vektorn med konstant belopp byter riktning. Testa med </FONT><A HREF="polpil.html"><FONT FACE="Arial">denna lilla matlabsnutt</FONT></A><FONT FACE="Arial"> (S&auml;tt Ey/Ex=1 och faskillnad = pi/2) s&aring; ser man hur E-vektorn &auml;ndras med tiden.</P><P>N&auml;r vi fortfarande har fasskillnad ±pi/2, men olika amplitud f&aring;r vi i st&auml;llet en E-vektor som roterar <B>och</B> varierar i belopp. Detta kallas elliptiskt polariserat ljus.</P><P>I det verderv&auml;rdiga fall att amplituderna &auml;r olika och fasskillanden inte &auml;r ett heltag ggr pi/2 f&aring;r vi ellipiskt polariserat ljus med ellipsaxlar i andra riktningar &auml;n koordinataxlarna.</P><P>Prova g&auml;rna i matlabbsnutten men r&auml;kna bara p&aring; det om du har en uttalat trigonometrimasoschistisk l&auml;ggning.</P><IMG SRC="Image364.gif" WIDTH=291 HEIGHT=128 ALIGN="LEFT" HSPACE=12> <P>Hur &aring;stadkommer man nu alla dessa fasskillnader och annat? (I den s&aring; kallade verkligheten, inte i matlab)</P><P>Man anv&auml;nder sig av material som &auml;r dubbelbrytande<A NAME="dubbelbr"></A> dvs har olika brytningsindex f&ouml;r olika polarisationsriktningar. S&aring;dana material har varit k&auml;nda sedan antiken och det f&ouml;rsta man sl&aring;s av n&auml;r man tittar genom dem &auml;r att man ser tv&aring; bilder. Med ett polaroidfilter &auml;r det l&auml;tt att konstatera att de b&auml;gge bilderna har olika polarisationsriktning.</P><P>I den enklaste typen av dubbelbrytande material &auml;r en polarisationsriktning avvikande i brytningsindex och kallas d&aring; f&ouml;r den optiska axeln. Alla riktningar vinkelr&auml;tta mot den (dvs ett helt plan av riktningar) har samma index, vilket kallas det ordin&auml;ra brytningsindex, n<SUB>o</SUB>. det avvikande kallas extraordin&auml;rt index, n<SUB>eo</SUB>.</P></FONT></BODY>
+
+<HEAD>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+    <TITLE>cp_ep</TITLE>
+    <META NAME="Version" CONTENT="8.0.3410">
+    <META NAME="Date" CONTENT="10/11/96">
+    <META NAME="Template" CONTENT="D:\Program\Microsoft Office\Office\HTML.DOT">
+</HEAD>
+
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+    <FONT FACE="Arial">
+        <P>Lite eftertanke visar att ett villkor f&ouml;r att ljus ska vara linj&auml;rpolariserat &auml;r att
+            nollst&auml;llen f&ouml;r x och y-komponenter intr&auml;ffar samtidigt
+    </FONT>
+    <FONT FACE="Arial" COLOR="#ff0000">. (Annars skulle E-f&auml;ltet peka i x-riktningen n&auml;r y-komp har
+        nollst&auml;lle och vice versa). </FONT>
+    <FONT FACE="Arial">De fasskillnader som &auml;r OK &auml;r allts&aring; 0 eller </FONT>
+    <FONT FACE="Symbol">p</FONT>
+    <FONT FACE="Arial"> (testa med matlabsnutten p&aring; huvudsidan). Ett viktigt specialfall intr&auml;ffar d&aring;
+        fasskillnaden &auml;r ï¿½</FONT>
+    <FONT FACE="Symbol">p</FONT>
+    <FONT FACE="Arial">/2 och ampliduden i x- och y-riktning &auml;r lika. Ljus som utbreder sig i z riktningen kan
+        d&aring; skrivas</P>
+        <P><IMG SRC="Image363.gif" WIDTH=436 HEIGHT=32></P>
+        <P>R&auml;knar man ut l&auml;ngden av E-vektorn (Pythagoras sats) s&aring; ser man att denna &auml;r E0 (alltid
+            och &ouml;verallt, dvs oberoende av t och z). Detta ska tolkas som att E vektorn med konstant belopp byter
+            riktning. Testa med
+    </FONT><A HREF="polpil.html">
+        <FONT FACE="Arial">denna lilla matlabsnutt</FONT>
+    </A>
+    <FONT FACE="Arial"> (S&auml;tt Ey/Ex=1 och faskillnad = pi/2) s&aring; ser man hur E-vektorn &auml;ndras med tiden.
+        </P>
+        <P>N&auml;r vi fortfarande har fasskillnad ï¿½pi/2, men olika amplitud f&aring;r vi i st&auml;llet en E-vektor som
+            roterar <B>och</B> varierar i belopp. Detta kallas elliptiskt polariserat ljus.</P>
+        <P>I det verderv&auml;rdiga fall att amplituderna &auml;r olika och fasskillanden inte &auml;r ett heltag ggr
+            pi/2 f&aring;r vi ellipiskt polariserat ljus med ellipsaxlar i andra riktningar &auml;n koordinataxlarna.
+        </P>
+        <P>Prova g&auml;rna i matlabbsnutten men r&auml;kna bara p&aring; det om du har en uttalat
+            trigonometrimasoschistisk l&auml;ggning.</P><IMG SRC="Image364.gif" WIDTH=291 HEIGHT=128 ALIGN="LEFT"
+            HSPACE=12>
+        <P>Hur &aring;stadkommer man nu alla dessa fasskillnader och annat? (I den s&aring; kallade verkligheten, inte i
+            matlab)</P>
+        <P>Man anv&auml;nder sig av material som &auml;r dubbelbrytande<A NAME="dubbelbr"></A> dvs har olika
+            brytningsindex f&ouml;r olika polarisationsriktningar. S&aring;dana material har varit k&auml;nda sedan
+            antiken och det f&ouml;rsta man sl&aring;s av n&auml;r man tittar genom dem &auml;r att man ser tv&aring;
+            bilder. Med ett polaroidfilter &auml;r det l&auml;tt att konstatera att de b&auml;gge bilderna har olika
+            polarisationsriktning.</P>
+        <P>I den enklaste typen av dubbelbrytande material &auml;r en polarisationsriktning avvikande i brytningsindex
+            och kallas d&aring; f&ouml;r den optiska axeln. Alla riktningar vinkelr&auml;tta mot den (dvs ett helt plan
+            av riktningar) har samma index, vilket kallas det ordin&auml;ra brytningsindex, n<SUB>o</SUB>. det avvikande
+            kallas extraordin&auml;rt index, n<SUB>eo</SUB>.</P>
+    </FONT>
+</BODY>
 <!-- Mirrored from static.sys.kth.se/sci/gm/bok/kap4/sida3/cp_ep.htm by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Feb 2021 08:43:02 GMT -->
+
 </HTML>
