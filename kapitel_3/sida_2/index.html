@@ -10,197 +10,199 @@
 </HEAD>
 
 <BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff"><B>
-        <FONT FACE="Arial" SIZE=4>
-            <P>Lasern strålegenskaper</P><IMG SRC="Image109.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=389 HEIGHT=240>
-    </B></FONT>
-    <FONT FACE="Arial">
-        <P>Laserstrålens tvärsnitt uppvisar vad vi brukar kalla en gaussisk profil dvs intensiteten avtar
-            gradbis med ökande radie såsom i figuren. Det är därför svårt att definiera
-            en exakt radie. man har som konvention (egentligen av matematiska skäl) valt att definiera
-            strålradien (=w) som den radie där intensiteten gått ner en faktor e� (=7.4) från
-            sitt maxvärde i mitten av strålen. Innanför denna radie ligger 94% av energin, och den
-            är därför ett bra mått på hur stor yta energin är spridd över.
-            Däremot kan man inte dra någon slutsats om hur stor en öppning eller en lins ska vara
-            för att släppa igenom strålen direkt från w, eftersom man får
-    </FONT><A HREF="../../kap2/sida2/huvudsid2.html">
-        <FONT FACE="Arial">diffraktion</FONT>
-    </A>
-    <FONT FACE="Arial"> i linsen även om den skär utanför w. Som tumregel brukar man ta att dubbla w i
-        öppningsradie gör att strålen blir praktiskt taget opåverkad av diffraktion.</P>
-        <P>När man talar om strålens divergens menar man ökningen i w per avstånd från
-            lasern, mätt i mrad. Detta gäller egentligen bara på stort avstånd från lasern
-            (se nivå 2 nedan), men allmännt gäller att divergens ges av <IMG SRC="Image112.gif" WIDTH=73
-                HEIGHT=24>där w<SUB>0</SUB> är strålens w-radie precis vid utkopplingen ur lasern.</P>
-        <P>Ex: Hur stor blir den intensiteten i en spot belyst av en 10mW HeNe laser med våglängd 633nm
-            på 100m avstånd om w<SUB>0</SUB>=0.50mm?
-    </FONT><A HREF="spot100m.html">
-        <FONT FACE="Arial">Joo..</FONT>
-    </A></P>
-    <FONT FACE="Arial">
-        <P>Laserljus är vidare ofta pulsat (för att en detektor lättare ska känna igen det i en
-            stark, brusig bakgrund av solljus och andra inkoherenta ljuskällor), med <A
+    <FONT FACE="Arial" SIZE=4>
+        <P>Lasern strålegenskaper</P><IMG SRC="Image109.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=389 HEIGHT=240>
+</B></FONT>
+<FONT FACE="Arial">
+    <P>Laserstrålens tvärsnitt uppvisar vad vi brukar kalla en gaussisk profil dvs intensiteten avtar
+        gradbis med ökande radie såsom i figuren. Det är därför svårt att definiera
+        en exakt radie. man har som konvention (egentligen av matematiska skäl) valt att definiera
+        strålradien (=w) som den radie där intensiteten gått ner en faktor e� (=7.4) från
+        sitt maxvärde i mitten av strålen. Innanför denna radie ligger 94% av energin, och den
+        är därför ett bra mått på hur stor yta energin är spridd över.
+        Däremot kan man inte dra någon slutsats om hur stor en öppning eller en lins ska vara
+        för att släppa igenom strålen direkt från w, eftersom man får
+</FONT><A HREF="../../kap2/sida2/huvudsid2.html">
+    <FONT FACE="Arial">diffraktion</FONT>
+</A>
+<FONT FACE="Arial"> i linsen även om den skär utanför w. Som tumregel brukar man ta att dubbla w i
+    öppningsradie gör att strålen blir praktiskt taget opåverkad av diffraktion.</P>
+    <P>När man talar om strålens divergens menar man ökningen i w per avstånd från
+        lasern, mätt i mrad. Detta gäller egentligen bara på stort avstånd från lasern
+        (se nivå 2 nedan), men allmännt gäller att divergens ges av <IMG SRC="Image112.gif" WIDTH=73
+                                                                         HEIGHT=24>där w<SUB>0</SUB> är strålens w-radie
+        precis vid utkopplingen ur lasern.</P>
+    <P>Ex: Hur stor blir den intensiteten i en spot belyst av en 10mW HeNe laser med våglängd 633nm
+        på 100m avstånd om w<SUB>0</SUB>=0.50mm?
+</FONT><A HREF="spot100m/index.html">
+    <FONT FACE="Arial">Joo..</FONT>
+</A></P>
+<FONT FACE="Arial">
+    <P>Laserljus är vidare ofta pulsat (för att en detektor lättare ska känna igen det i en
+        stark, brusig bakgrund av solljus och andra inkoherenta ljuskällor), med <A
                 NAME="prf">pulsrepetionsfrekvens</A> (PRF) menar man då antal pulser per sekund, ett värde
-            som för en mätlaser typiskt ligger runt 1kHz.</P>
-        <P>Pulslängden T, beror av vilken mekanism man använt för att pulsa ljuset, men med en av de
-            vanligaste (Q-switchning, nivå 2 nedan förståss, vad annars?) blir den typiskt ca 20ns.</P>
-        <P>Sambandet mellan laserns medeleffekt och pulsens toppeffekt blir då:</P>
-        <P><IMG SRC="Image114.gif" WIDTH=168 HEIGHT=41></P>
-        <P>Ur topp- och medeleffekt får man sedan resp intensitet genom att dela med belyst fläcks yta</P>
-    </FONT><B>
-        <FONT FACE="Arial" SIZE=5>
-            <P>Strålegenskaper nivå 2</P>
-    </B></FONT>
-    <FONT FACE="Arial">
-        <P>Vi ljög (eller undanhöll sanningen) på förra sidan. Man använder aldrig plana
-            speglat i en alser eftersom vinkelinjusteringskraven skulle bli alldeles för stora för en
-            komersiell produkt (ngn �rad dvs ett granbarr på 1km behövs). Bakre spegeln är alltså
-            svagt krökt. Detta har två konsekvenser:</P>
-        <P>Strålens intensitet får en Gaussisk fördelning dvs <IMG SRC="Image115.gif" WIDTH=94
-                HEIGHT=28>, vilket ger den intensitetfördelning som framgår av plotten ovan.</P>
-        <P>Strålens smalaste punkt (där w=w<SUB>0</SUB>) kommer att ligga vid utkopplingsspegeln. Vi
-            väljer detta som utgångspunkt för en z-axel utmed strålen, dvs z=0 vid
-            utkopplingsspegeln.</P>
-        <P><IMG SRC="Image116.gif" WIDTH=357 HEIGHT=131></P><IMG SRC="Image117.gif" ALIGN="LEFT" HSPACE=12 WIDTH=402
-            HEIGHT=154>
-        <P>Det kommer att finnas oönskade vägar för ljuset att lasra (=uppleva rundgång) som kan
-            förstöra strålen kvalitet om man inte begränsar deras framfart. Exempelvis kan ljuset
-            studsa varannann gång i överdel av den krökta spegeln och varannan gång i underdel.
-            Detta skulle ju en utkopplad stråle som ser ut som den gröna träffbilden i fig (i motsats
-            till den röda som är den man vill ha). En mer komplicerad tredimensionell variant är den
-            blå. Dessa oönskade ljusfördelningar brukar kallas högre transversella moder och
-            bekämpas enklast med en apertur placerad nära utkopplingsspegeln som ger större
-            förluster för de högre moderna än för grundmoden (=den önskade som brukar
-            kallas TEM<SUB>00</SUB>). <A NAME="modrenhet">Modrenhet</A> är alltså en viktigt
-            kvalitetsmått och brukar kvantifieras som hur många procent av ljuset som ligger i TEM<SUB>00.
-        </P><IMG SRC="Image118.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=516 HEIGHT=256> </SUB>
-        <P>Det finns en annan typ av moder som kallas longitudinella som har med våglängdsrenhet att
-            göra. Dessa uppkommer därför att den våglängd som "kan lasra", dvs kan bli
-            förstärkt av ett givet lasermaterial, inte är exakt definierad utan har en viss spridning,
-            oftast av storleksordning 0.01-0.1nm. Förstärkningen som funktion av våglängd ser
-            då ut som den svarta kurvan i fig, spridd runt en mittvåglängd. </P>
-        <P>&nbsp;</P>
-        <P>F<SUB>T</SUB> i figuren är den förstärkning som är tillräcklig för att
-            kompensera förlusterna genom utkopplingsspegeln, dvs 1/R. Enbarft de våglängder där
-            förstärkningen (F) är större än denna tröskel kan lasra. men det finns ett
-            villkor till.
-    </FONT>
-    <FONT FACE="Wingdings">L</FONT>
-    <FONT FACE="Arial"> Enbart våglängder för vilka en rundtripp i laser är ett helt antal
-        våglängder kan lasra, annars skulle strålen i kaviteten interferera destruktivt med sig
-        själv efter ett varv.</P><IMG SRC="Image119.gif" ALIGN="LEFT" HSPACE=12 WIDTH=379 HEIGHT=232>
-        <P>Villkoret blir alltså att 2L =p
-    </FONT>
-    <FONT FACE="Symbol">l </FONT>
-    <FONT FACE="Arial">(eller hur). Detta innebär att ngt tiotal sådana våglängder får plats
-        under den del av förstärkningskurva som ligger över tröskel. Varför? För vanliga
-        tillämpningar och vanliga lasrar har detta ingen betydelse. Men för halvledarlasrar (med längder
-        runt 100�m) och i avståndsmätningar med stora noggrannhetskrav är det väsentligt.</P>
-        <P>Löser man vågekvationen för laserkaviteten kommer man fram till att strålen w-radie
-            runt en midja beter sig som </P>
-        <P><IMG SRC="Image120.gif" WIDTH=156 HEIGHT=60></P>
-        <P>där z=0 vid midjan, till exempel vid utkopplingsspegeln, men också vid den midja som uppkommer om
-            man fokuserar strålen mha en lins. Plottar man w(z) får man:</P>
-        <P>Midjan går alltså asymptotiskt mot den streckade linjen som har ekvationen </P>
-        <P><IMG SRC="Image121.gif" WIDTH=80 HEIGHT=24></P>
-        <P>(Försumma ettan i ekvationen och räkna på! För tillräckligt stora z blir ettan
-            oväsentlig)</P>
-        <P>Linjens vinkel med symmetriaxeln brukar kallas strålens <A NAME="divergens">divergens</A>, men
-            gäller egentligen bara då ettan kan försummas. När kan det det då??</P>
-        <P>Ett bra mått är det värde på z som gör parantesen i rotuttrycket =1. Kalla detta
-            z-värde för z<SUB>0</SUB> eller skärpedjup. När z&gt;z<SUB>0</SUB> gäller
-            divergensuttrycket. När z&lt;z<SUB>0 </SUB>är w mer eller mindre konstant. (mellan tummen och
-            pekfingret i alla fall). Så hur stort blir det nu då? Jo sätt parantesen =1 så
-            får vi <IMG SRC="Image122.gif" WIDTH=84 HEIGHT=25></P>
-        <P>Ökar vi strålens radie vi utkopplingsspegeln får vi alltså längre skärpedjup
-            och mindre divergens. </P>
-        <P>Räkna själv ut dessa värden för en HeNe-laser med våglängd 633nm och spotsize
-            =0.3mm.</P><IMG SRC="Image123.gif" ALIGN="LEFT" HSPACE=12 WIDTH=448 HEIGHT=396>
-        <P>Om man skulle expandera strålen en faktor 10 blir alltså skärpedjupet 100ggr längre och
-            divergensen en tiondel så stor. Sambandet ovan gäller även vid fokusering:</P>
-        <P>Sätt strålradien in mot den fokuserande linsen till w<SUB>in</P></SUB>
-        <P>Då blir
-    </FONT>
-    <FONT FACE="Symbol">q=</FONT>
-    <FONT FACE="Arial"> w<SUB>in</SUB>/f vilket kombineras med vårt tidigare uttryck för </FONT>
-    <FONT FACE="Symbol">q </FONT>
-    <FONT FACE="Arial">varur vi får</P><IMG SRC="Image124.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=70 HEIGHT=45>
-        <P>&nbsp;</P>
-        <P>&nbsp;</P>
-        <P>Nu kan inte strålradien göras större än halva linsradien utan att få
-    </FONT><A HREF="../../kap2/sida2/huvudsid2.html">
-        <FONT FACE="Arial">diffraktion</FONT>
-    </A>
-    <FONT FACE="Arial">, och fokallängden kan inte göras kortare än dubbla radien. </P>
-        <P>Vilket ger oss att den minsta spot man överhuvudtaget kan få är en dryg våglängd i
-            w-radie. Eller hur?</P>
-        <P>Exempel:</P>
-        <P>Man vill (av oklara skäl , gissa själv) skapa en så liten laserfläck som möjligt
-            på 20km avstånd, med en Nd:YAG-laser, våglängd 1064nm. Hur stor ska strålen
-            vara när den lämnar laser med teleskop, och hur stor blir den vid målet?</P>
-        <P>Ledning: w är en funktion av w<SUB>0</SUB>, som ska minimeras. L är 20km = konstant!</P>
-        <P>
-    </FONT><A HREF="minspot.html">
-        <FONT FACE="Arial">Så här gjorde jag</FONT>
-    </A>
-    <FONT FACE="Arial">.</P>
-    </FONT><B>
-        <FONT FACE="Arial" SIZE=4>
-            <P>Pulsning</P>
-    </B></FONT>
-    <FONT FACE="Arial">
-        <P>Det finns två vanliga metoder för pulsning. Den i mätsammanhang viktigaste kallas <A
-                NAME="qswitch">Q-switchning </A>och bygger på att man hindrar lasern från att lasra under en
-            tid (storleksordning 100�s) genom att helt enkelt blockera strålens väg i laserkaviteten.
-            Förstärkningen kan då genom
-    </FONT><A HREF="../sida1/huvudsid1.html#pumpning">
-        <FONT FACE="Arial">pumpningen</FONT>
-    </A>
-    <FONT FACE="Arial"> växa till värden mycket större ån 1/återkopplingen = 1/R som den
-    </FONT><A HREF="../sida1/huvudsid1.html#rundg">
-        <FONT FACE="Arial">annars</FONT>
-    </A>
-    <FONT FACE="Arial"> är begränsad av. Resultatet blir att när kavitetsblockeringen väl tas bort
-        är försärkningen så stor att strålen växer till mycket stora intensiteter under
-        ngn enstaka rundtrippstid i kaviteten (2-3ns). Denna högintensiva stråle tömmer helt ut
-        nivå 2 på elektroner (</FONT><A HREF="../sida1/huvudsid1.html#stimemis">
-        <FONT FACE="Arial">eftersom</FONT>
-    </A>
-    <FONT FACE="Arial"> stimulerad emission var prop mot intensiteten). "All" lagrad energi i atomerna blir alltså
-        ljus inom en mycket kort tidsrymd. Därefter läcker 20% (eller 1 - R om R har annat värde än
-        0.8) av denna ut varje rundtripp. Man får alltså en laserpuls vars intensitet stiger under ca 2-5ns
-        och sedan avtar under 10-50ns. Toppeffekten i denna brukar ligga på ca 10000ggr effekten av samma laser
-        körd kontinuerligt. Medeleffekten sjunker alltså ganska lite trots att laser hindras från att
-        lasra under större delen av tiden</P>
-        <P>Ett annat fenomen som bygger interferens mellan moderna (svävning) kallas modlåsning och ger
-            pulser med längd 10-100ps och
-    </FONT><A HREF="#prf">
-        <FONT FACE="Arial">PRF</FONT>
-    </A>
-    <FONT FACE="Arial"> (vad var det nu igen?) på hundratals MHz</P>
-        <P>&nbsp;</P>
-        <P>Till
-    </FONT><A HREF="../sida3/huvudsid3.html">
-        <FONT FACE="Arial">nästa sida</FONT>
-    </A>
-    <FONT FACE="Arial"> (Lasertyper)</P>
-        <P>Till
-    </FONT><A HREF="../../kap4/sida1/huvudsid1.html">
-        <FONT FACE="Arial">nästa kapitel</FONT>
-    </A>
-    <FONT FACE="Arial"> (Vågoptik) </FONT>
-    <FONT FACE="Arial" COLOR="#ff0000">(enbart nivå 2+3)</P>
-    </FONT>
-    <FONT FACE="Arial">
-        <P>Till
-    </FONT><A HREF="file:///E:/kap5/sida1/huvudsid1.htm">
-        <FONT FACE="Arial">nästa nivå-1 kapitel</FONT>
-    </A>
-    <FONT FACE="Arial"> (Modern optronik)</P>
-        <P>Till
-    </FONT><A HREF="../../inledning/index.html">
-        <FONT FACE="Arial">innehållsförteckningen</FONT>
-    </A></P>
-    <FONT FACE="Arial"></FONT>
+        som för en mätlaser typiskt ligger runt 1kHz.</P>
+    <P>Pulslängden T, beror av vilken mekanism man använt för att pulsa ljuset, men med en av de
+        vanligaste (Q-switchning, nivå 2 nedan förståss, vad annars?) blir den typiskt ca 20ns.</P>
+    <P>Sambandet mellan laserns medeleffekt och pulsens toppeffekt blir då:</P>
+    <P><IMG SRC="Image114.gif" WIDTH=168 HEIGHT=41></P>
+    <P>Ur topp- och medeleffekt får man sedan resp intensitet genom att dela med belyst fläcks yta</P>
+</FONT><B>
+    <FONT FACE="Arial" SIZE=5>
+        <P>Strålegenskaper nivå 2</P>
+</B></FONT>
+<FONT FACE="Arial">
+    <P>Vi ljög (eller undanhöll sanningen) på förra sidan. Man använder aldrig plana
+        speglat i en alser eftersom vinkelinjusteringskraven skulle bli alldeles för stora för en
+        komersiell produkt (ngn �rad dvs ett granbarr på 1km behövs). Bakre spegeln är alltså
+        svagt krökt. Detta har två konsekvenser:</P>
+    <P>Strålens intensitet får en Gaussisk fördelning dvs <IMG SRC="Image115.gif" WIDTH=94
+                                                               HEIGHT=28>, vilket ger den intensitetfördelning som
+        framgår av plotten ovan.</P>
+    <P>Strålens smalaste punkt (där w=w<SUB>0</SUB>) kommer att ligga vid utkopplingsspegeln. Vi
+        väljer detta som utgångspunkt för en z-axel utmed strålen, dvs z=0 vid
+        utkopplingsspegeln.</P>
+    <P><IMG SRC="Image116.gif" WIDTH=357 HEIGHT=131></P><IMG SRC="Image117.gif" ALIGN="LEFT" HSPACE=12 WIDTH=402
+                                                             HEIGHT=154>
+    <P>Det kommer att finnas oönskade vägar för ljuset att lasra (=uppleva rundgång) som kan
+        förstöra strålen kvalitet om man inte begränsar deras framfart. Exempelvis kan ljuset
+        studsa varannann gång i överdel av den krökta spegeln och varannan gång i underdel.
+        Detta skulle ju en utkopplad stråle som ser ut som den gröna träffbilden i fig (i motsats
+        till den röda som är den man vill ha). En mer komplicerad tredimensionell variant är den
+        blå. Dessa oönskade ljusfördelningar brukar kallas högre transversella moder och
+        bekämpas enklast med en apertur placerad nära utkopplingsspegeln som ger större
+        förluster för de högre moderna än för grundmoden (=den önskade som brukar
+        kallas TEM<SUB>00</SUB>). <A NAME="modrenhet">Modrenhet</A> är alltså en viktigt
+        kvalitetsmått och brukar kvantifieras som hur många procent av ljuset som ligger i TEM<SUB>00.
+    </P><IMG SRC="Image118.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=516 HEIGHT=256> </SUB>
+    <P>Det finns en annan typ av moder som kallas longitudinella som har med våglängdsrenhet att
+        göra. Dessa uppkommer därför att den våglängd som "kan lasra", dvs kan bli
+        förstärkt av ett givet lasermaterial, inte är exakt definierad utan har en viss spridning,
+        oftast av storleksordning 0.01-0.1nm. Förstärkningen som funktion av våglängd ser
+        då ut som den svarta kurvan i fig, spridd runt en mittvåglängd. </P>
+    <P>&nbsp;</P>
+    <P>F<SUB>T</SUB> i figuren är den förstärkning som är tillräcklig för att
+        kompensera förlusterna genom utkopplingsspegeln, dvs 1/R. Enbarft de våglängder där
+        förstärkningen (F) är större än denna tröskel kan lasra. men det finns ett
+        villkor till.
+</FONT>
+<FONT FACE="Wingdings">L</FONT>
+<FONT FACE="Arial"> Enbart våglängder för vilka en rundtripp i laser är ett helt antal
+    våglängder kan lasra, annars skulle strålen i kaviteten interferera destruktivt med sig
+    själv efter ett varv.</P><IMG SRC="Image119.gif" ALIGN="LEFT" HSPACE=12 WIDTH=379 HEIGHT=232>
+    <P>Villkoret blir alltså att 2L =p
+</FONT>
+<FONT FACE="Symbol">l </FONT>
+<FONT FACE="Arial">(eller hur). Detta innebär att ngt tiotal sådana våglängder får plats
+    under den del av förstärkningskurva som ligger över tröskel. Varför? För vanliga
+    tillämpningar och vanliga lasrar har detta ingen betydelse. Men för halvledarlasrar (med längder
+    runt 100�m) och i avståndsmätningar med stora noggrannhetskrav är det väsentligt.</P>
+    <P>Löser man vågekvationen för laserkaviteten kommer man fram till att strålen w-radie
+        runt en midja beter sig som </P>
+    <P><IMG SRC="Image120.gif" WIDTH=156 HEIGHT=60></P>
+    <P>där z=0 vid midjan, till exempel vid utkopplingsspegeln, men också vid den midja som uppkommer om
+        man fokuserar strålen mha en lins. Plottar man w(z) får man:</P>
+    <P>Midjan går alltså asymptotiskt mot den streckade linjen som har ekvationen </P>
+    <P><IMG SRC="Image121.gif" WIDTH=80 HEIGHT=24></P>
+    <P>(Försumma ettan i ekvationen och räkna på! För tillräckligt stora z blir ettan
+        oväsentlig)</P>
+    <P>Linjens vinkel med symmetriaxeln brukar kallas strålens <A NAME="divergens">divergens</A>, men
+        gäller egentligen bara då ettan kan försummas. När kan det det då??</P>
+    <P>Ett bra mått är det värde på z som gör parantesen i rotuttrycket =1. Kalla detta
+        z-värde för z<SUB>0</SUB> eller skärpedjup. När z&gt;z<SUB>0</SUB> gäller
+        divergensuttrycket. När z&lt;z<SUB>0 </SUB>är w mer eller mindre konstant. (mellan tummen och
+        pekfingret i alla fall). Så hur stort blir det nu då? Jo sätt parantesen =1 så
+        får vi <IMG SRC="Image122.gif" WIDTH=84 HEIGHT=25></P>
+    <P>Ökar vi strålens radie vi utkopplingsspegeln får vi alltså längre skärpedjup
+        och mindre divergens. </P>
+    <P>Räkna själv ut dessa värden för en HeNe-laser med våglängd 633nm och spotsize
+        =0.3mm.</P><IMG SRC="Image123.gif" ALIGN="LEFT" HSPACE=12 WIDTH=448 HEIGHT=396>
+    <P>Om man skulle expandera strålen en faktor 10 blir alltså skärpedjupet 100ggr längre och
+        divergensen en tiondel så stor. Sambandet ovan gäller även vid fokusering:</P>
+    <P>Sätt strålradien in mot den fokuserande linsen till w<SUB>in</P></SUB>
+    <P>Då blir
+</FONT>
+<FONT FACE="Symbol">q=</FONT>
+<FONT FACE="Arial"> w<SUB>in</SUB>/f vilket kombineras med vårt tidigare uttryck för </FONT>
+<FONT FACE="Symbol">q </FONT>
+<FONT FACE="Arial">varur vi får</P><IMG SRC="Image124.gif" ALIGN="RIGHT" HSPACE=12 WIDTH=70 HEIGHT=45>
+    <P>&nbsp;</P>
+    <P>&nbsp;</P>
+    <P>Nu kan inte strålradien göras större än halva linsradien utan att få
+</FONT><A HREF="../../kap2/sida2/huvudsid2.html">
+    <FONT FACE="Arial">diffraktion</FONT>
+</A>
+<FONT FACE="Arial">, och fokallängden kan inte göras kortare än dubbla radien. </P>
+    <P>Vilket ger oss att den minsta spot man överhuvudtaget kan få är en dryg våglängd i
+        w-radie. Eller hur?</P>
+    <P>Exempel:</P>
+    <P>Man vill (av oklara skäl , gissa själv) skapa en så liten laserfläck som möjligt
+        på 20km avstånd, med en Nd:YAG-laser, våglängd 1064nm. Hur stor ska strålen
+        vara när den lämnar laser med teleskop, och hur stor blir den vid målet?</P>
+    <P>Ledning: w är en funktion av w<SUB>0</SUB>, som ska minimeras. L är 20km = konstant!</P>
+    <P>
+</FONT><A HREF="minspot/index.html">
+    <FONT FACE="Arial">Så här gjorde jag</FONT>
+</A>
+<FONT FACE="Arial">.</P>
+</FONT><B>
+    <FONT FACE="Arial" SIZE=4>
+        <P>Pulsning</P>
+</B></FONT>
+<FONT FACE="Arial">
+    <P>Det finns två vanliga metoder för pulsning. Den i mätsammanhang viktigaste kallas <A
+            NAME="qswitch">Q-switchning </A>och bygger på att man hindrar lasern från att lasra under en
+        tid (storleksordning 100�s) genom att helt enkelt blockera strålens väg i laserkaviteten.
+        Förstärkningen kan då genom
+</FONT><A HREF="../sida1/huvudsid1.html#pumpning">
+    <FONT FACE="Arial">pumpningen</FONT>
+</A>
+<FONT FACE="Arial"> växa till värden mycket större ån 1/återkopplingen = 1/R som den
+</FONT><A HREF="../sida1/huvudsid1.html#rundg">
+    <FONT FACE="Arial">annars</FONT>
+</A>
+<FONT FACE="Arial"> är begränsad av. Resultatet blir att när kavitetsblockeringen väl tas bort
+    är försärkningen så stor att strålen växer till mycket stora intensiteter under
+    ngn enstaka rundtrippstid i kaviteten (2-3ns). Denna högintensiva stråle tömmer helt ut
+    nivå 2 på elektroner (</FONT><A HREF="../sida1/huvudsid1.html#stimemis">
+    <FONT FACE="Arial">eftersom</FONT>
+</A>
+<FONT FACE="Arial"> stimulerad emission var prop mot intensiteten). "All" lagrad energi i atomerna blir alltså
+    ljus inom en mycket kort tidsrymd. Därefter läcker 20% (eller 1 - R om R har annat värde än
+    0.8) av denna ut varje rundtripp. Man får alltså en laserpuls vars intensitet stiger under ca 2-5ns
+    och sedan avtar under 10-50ns. Toppeffekten i denna brukar ligga på ca 10000ggr effekten av samma laser
+    körd kontinuerligt. Medeleffekten sjunker alltså ganska lite trots att laser hindras från att
+    lasra under större delen av tiden</P>
+    <P>Ett annat fenomen som bygger interferens mellan moderna (svävning) kallas modlåsning och ger
+        pulser med längd 10-100ps och
+</FONT><A HREF="#prf">
+    <FONT FACE="Arial">PRF</FONT>
+</A>
+<FONT FACE="Arial"> (vad var det nu igen?) på hundratals MHz</P>
+    <P>&nbsp;</P>
+    <P>Till
+</FONT><A HREF="../sida3/huvudsid3.html">
+    <FONT FACE="Arial">nästa sida</FONT>
+</A>
+<FONT FACE="Arial"> (Lasertyper)</P>
+    <P>Till
+</FONT><A HREF="../../kap4/sida1/huvudsid1.html">
+    <FONT FACE="Arial">nästa kapitel</FONT>
+</A>
+<FONT FACE="Arial"> (Vågoptik) </FONT>
+<FONT FACE="Arial" COLOR="#ff0000">(enbart nivå 2+3)</P>
+</FONT>
+<FONT FACE="Arial">
+    <P>Till
+</FONT><A HREF="file:///E:/kap5/sida1/huvudsid1.htm">
+    <FONT FACE="Arial">nästa nivå-1 kapitel</FONT>
+</A>
+<FONT FACE="Arial"> (Modern optronik)</P>
+    <P>Till
+</FONT><A HREF="../../inledning/index.html">
+    <FONT FACE="Arial">innehållsförteckningen</FONT>
+</A></P>
+<FONT FACE="Arial"></FONT>
 </BODY>
 
 
