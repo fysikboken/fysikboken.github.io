@@ -3,113 +3,120 @@
 <html lang="sv">
 
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Fysikboken</title>
-    <meta name="description" content="En fysikbok för studenter på KTH"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="En fysikbok för studenter på KTH" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#224679">
+    <meta name="msapplication-TileColor" content="#224679">
+    <meta name="theme-color" content="#224679">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-<!--Kod för navigering-->
-<div id="nav-placeholder"></div>
-<script>
-    $(function () {
-        $("#nav-placeholder").load("/header");
-    });
-</script>
-<!--Slut på kod för navigering-->
-<main class=" divide-gray-900">
-    <h1 class="text-center text-3xl py-3">Välkommen till vårt kursmateriel om Optik, Laser och Optronik</h1>
-    <hr class="pb-5">
-    <p class="px-5">
-        Boken är skriven i nivåer: Nivå 1
-        motsvara en föreläsningskurs på ca 6 timmar, nivå 2 ca 30 timmar och nivå
-        3 är fördjupning. <br>
-        Boken är indelad i kapitel (6 st) som vardera har ett
-        antal sidor (som i sin tur blir flera papperssidor vardera om man skriver
-        ut).
-    </p>
-    <br>
-    <span class="px-5">Länkar i löpande text går till endera av:</span>
-    <ul class="list-disc px-10">
-        <li>Förklaring på termer som dyker upp och som förklarats tidigare</li>
-        <li>Svar på uppgifter eller tankenötter</li>
-        <li>Utvikningar till nivå 3</li>
-    </ul>
-    <hr class="py-5">
-    <div class="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 0</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_0/sida_1/" class="hover:underline">Vågrörelselära</a>
-                <a href="/kapitel_0/sida_2/" class="hover:underline">Ljud</a>
-                <a href="/kapitel_0/sida_3/" class="hover:underline">Intereferens med ljud</a>
-                <a href="/kapitel_0/sida_4/" class="hover:underline">Våghastigheter</a>
+    <!--Kod för navigering-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/header");
+        });
+    </script>
+    <!--Slut på kod för navigering-->
+    <main class=" divide-gray-900">
+        <h1 class="text-center text-3xl py-3">Välkommen till vårt kursmateriel om Optik, Laser och Optronik</h1>
+        <hr class="pb-5">
+        <p class="px-5">
+            Boken är skriven i nivåer: Nivå 1
+            motsvara en föreläsningskurs på ca 6 timmar, nivå 2 ca 30 timmar och nivå
+            3 är fördjupning. <br>
+            Boken är indelad i kapitel (6 st) som vardera har ett
+            antal sidor (som i sin tur blir flera papperssidor vardera om man skriver
+            ut).
+        </p>
+        <br>
+        <span class="px-5">Länkar i löpande text går till endera av:</span>
+        <ul class="list-disc px-10">
+            <li>Förklaring på termer som dyker upp och som förklarats tidigare</li>
+            <li>Svar på uppgifter eller tankenötter</li>
+            <li>Utvikningar till nivå 3</li>
+        </ul>
+        <hr class="py-5">
+        <div class="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 0</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_0/sida_1/" class="hover:underline">Vågrörelselära</a>
+                    <a href="/kapitel_0/sida_2/" class="hover:underline">Ljud</a>
+                    <a href="/kapitel_0/sida_3/" class="hover:underline">Intereferens med ljud</a>
+                    <a href="/kapitel_0/sida_4/" class="hover:underline">Våghastigheter</a>
+                </div>
+            </div>
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 1</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_1/sida_1/" class="hover:underline">Hur uppkommer en bild?</a>
+                    <a href="/kapitel_1/sida_2/" class="hover:underline">Avbildning i sfärisk yta</a>
+                    <a href="/kapitel_1/sida_3/" class="hover:underline">Avbildning i tunn lins</a>
+                    <a href="/kapitel_1/sida_4/" class="hover:underline">Huvudplansbegreppet</a>
+                    <a href="/kapitel_1/sida_5/" class="hover:underline">Kikaren och teleskopet</a>
+                </div>
+            </div>
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 2</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_2/sida_1/" class="hover:underline">Aberrationer</a>
+                    <a href="/kapitel_2/sida_2/" class="hover:underline">Diffraktion</a>
+                    <a href="/kapitel_2/sida_3/" class="hover:underline">Skärpedjup och rörelseoskärpa</a>
+                    <a href="/kapitel_2/sida_4/" class="hover:underline">Bildkvalitet, MTF</a>
+                </div>
+            </div>
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 3</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_3/sida_1/" class="hover:underline">Laserns bakgrund</a>
+                    <a href="/kapitel_3/sida_2/" class="hover:underline">Laserns strålegenskaper</a>
+                    <a href="/kapitel_3/sida_3/" class="hover:underline">Lasertyper</a>
+                    <a href="/kapitel_3/sida_4/" class="hover:underline">Lasermätteknik</a>
+                    <a href="/kapitel_3/sida_5/" class="hover:underline">Optiska halvledarkomponenter</a>
+                </div>
+            </div>
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 4</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_4/sida_1/" class="hover:underline">Ljuset som våg, transmission</a>
+                    <a href="/kapitel_4/sida_2/" class="hover:underline">Interferens och optiska filter</a>
+                    <a href="/kapitel_4/sida_3/" class="hover:underline">Polarisation</a>
+                    <a href="/kapitel_4/sida_4/" class="hover:underline">Gitter</a>
+                </div>
+            </div>
+            <div class="col-auto border-2 border-gray-900 md:m-1">
+                <h2 class="text-center text-xl">Kapitel 5</h2>
+                <hr class="border-1 border-gray-900 mx-20">
+                <div class="flex flex-col text-center">
+                    <a href="/kapitel_5/sida_1/" class="hover:underline">Fiberoptik</a>
+                    <a href="/kapitel_5/sida_2/" class="hover:underline">IR-optik</a>
+                    <a href="/kapitel_5/sida_3/" class="hover:underline">Ickelinjär optik</a>
+                    <a href="/kapitel_5/sida_4/" class="hover:underline">Faskonjugering</a>
+                </div>
             </div>
         </div>
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 1</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_1/sida_1/" class="hover:underline">Hur uppkommer en bild?</a>
-                <a href="/kapitel_1/sida_2/" class="hover:underline">Avbildning i sfärisk yta</a>
-                <a href="/kapitel_1/sida_3/" class="hover:underline">Avbildning i tunn lins</a>
-                <a href="/kapitel_1/sida_4/" class="hover:underline">Huvudplansbegreppet</a>
-                <a href="/kapitel_1/sida_5/" class="hover:underline">Kikaren och teleskopet</a>
-            </div>
-        </div>
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 2</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_2/sida_1/" class="hover:underline">Aberrationer</a>
-                <a href="/kapitel_2/sida_2/" class="hover:underline">Diffraktion</a>
-                <a href="/kapitel_2/sida_3/" class="hover:underline">Skärpedjup och rörelseoskärpa</a>
-                <a href="/kapitel_2/sida_4/" class="hover:underline">Bildkvalitet, MTF</a>
-            </div>
-        </div>
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 3</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_3/sida_1/" class="hover:underline">Laserns bakgrund</a>
-                <a href="/kapitel_3/sida_2/" class="hover:underline">Laserns strålegenskaper</a>
-                <a href="/kapitel_3/sida_3/" class="hover:underline">Lasertyper</a>
-                <a href="/kapitel_3/sida_4/" class="hover:underline">Lasermätteknik</a>
-                <a href="/kapitel_3/sida_5/" class="hover:underline">Optiska halvledarkomponenter</a>
-            </div>
-        </div>
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 4</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_4/sida_1/" class="hover:underline">Ljuset som våg, transmission</a>
-                <a href="/kapitel_4/sida_2/" class="hover:underline">Interferens och optiska filter</a>
-                <a href="/kapitel_4/sida_3/" class="hover:underline">Polarisation</a>
-                <a href="/kapitel_4/sida_4/" class="hover:underline">Gitter</a>
-            </div>
-        </div>
-        <div class="col-auto border-2 border-gray-900 md:m-1">
-            <h2 class="text-center text-xl">Kapitel 5</h2>
-            <hr class="border-1 border-gray-900 mx-20">
-            <div class="flex flex-col text-center">
-                <a href="/kapitel_5/sida_1/" class="hover:underline">Fiberoptik</a>
-                <a href="/kapitel_5/sida_2/" class="hover:underline">IR-optik</a>
-                <a href="/kapitel_5/sida_3/" class="hover:underline">Ickelinjär optik</a>
-                <a href="/kapitel_5/sida_4/" class="hover:underline">Faskonjugering</a>
-            </div>
-        </div>
-    </div>
-</main>
-<footer class="relative inset-x-0 text-center bottom-0">Sida av några studenter från CL20 på KTH. Bygger
-    ursprungligen på
-    <a href="https://static.sys.kth.se/sci/gm/bok/inledning/intro.htm" class="text-blue-600 hover:underline">Göran
-        Mannerbergs gamla sida</a>
-</footer>
+    </main>
+    <footer class="relative inset-x-0 text-center bottom-0">Sida av några studenter från CL20 på KTH. Bygger
+        ursprungligen på
+        <a href="https://static.sys.kth.se/sci/gm/bok/inledning/intro.htm" class="text-blue-600 hover:underline">Göran
+            Mannerbergs gamla sida</a>
+    </footer>
 
 </body>
 
