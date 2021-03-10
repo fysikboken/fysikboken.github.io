@@ -1,121 +1,170 @@
-<HTML>
-<HEAD>
-    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-    <TITLE>huvudsid1</TITLE>
-    <META NAME="Version" CONTENT="8.0.3410">
-    <META NAME="Date" CONTENT="10/11/96">
-    <META NAME="Template" CONTENT="D:\Program\Microsoft Office\Office\HTML.DOT">
-</HEAD>
-<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff"><B>
-        <FONT FACE="Arial" SIZE=5>
-            <P>Fiberoptik</P><IMG SRC="Image151.gif" ALIGN="LEFT" HSPACE=12 WIDTH=294 HEIGHT=156>
-    </B></FONT>
-    <FONT FACE="Arial">
-        <P>En optisk fiber är en komponent avsedd att föra över stora mängder information, på
-            kort tid. Överföringen använder laserljus som leds i ett material med högra
-            brytningsindex än sin omgivning. Ljusledningen bygger på totalreflektion dvs att när ljus
-            ska brytas genom en yta, och kommer från ett medium med högre brytningsindex än det är
-            på väg mot inte ger någon bruten stråle om infallsvinkeln är tillräckligt
-            stor. Jfr fig. Den röda strålen har så stor infallsvinkel att brytningsvinkeln blir i det
-            närmast 90�. Större än 90� kan den ju inte gärna bli så för större
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kaptitel 5.1</title>
+    <meta name="description" content="En fysikbok för studenter på KTH" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#111827">
+    <meta name="apple-mobile-web-app-title" content="Fysikboken">
+    <meta name="application-name" content="Fysikboken">
+    <meta name="msapplication-TileColor" content="#111827">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#111827">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Kod för navigering-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/header");
+        });
+    </script>
+    <!--Slut på kod för navigering-->
+    <div class="divide-gray-900">
+        <h1 class="text-center text-3xl py-3">Fiberoptik</h1>
+        <hr class="pb-5">
+    </div>
+
+    <main class="px-10 divide-gray-900">
+        <img class="float-left" src="Image151.gif" alt="Illustration av en optisk fiber">
+        <p class="pb-5">En optisk fiber är en komponent avsedd att föra över stora mängder information, på kort tid.
+            Överföringen
+            använder
+            laserljus som leds i ett material med högra brytningsindex än sin omgivning. Ljusledningen bygger på
+            totalreflektion dvs
+            att när ljus ska brytas genom en yta, och kommer från ett medium med högre brytningsindex än det är på väg
+            mot
+            inte ger
+            någon bruten stråle om infallsvinkeln är tillräckligt stor. Jfr fig. Den röda strålen har så stor
+            infallsvinkel
+            att
+            brytningsvinkeln blir i det närmast 90°. Större än 90° kan den ju inte gärna bli så för större
             infallsvinklar
-    </FONT>
-    <FONT FACE="Arial" COLOR="#008000">(grönt i fig) </FONT>
-    <FONT FACE="Arial">kommer allt ljus att reflekteras. Id&eacute;n är nu att göra en tråd av material
-        med högre index (kärna=core) omgiven av material med något lägre (mantel=cladding). Metoden
-        att leda ljus kommer nu att fungera i kärnan även om man böjer den måttligt.</P>
-        <P>Det finns flera fördelar med informationsöveföring i fiber jämfört med olika
-            elektriska alternativ (dubbelledare och koaxialkabel exvis):</P>
-        <DIR>
-            <P><IMG SRC="Bullet7.gif" WIDTH=15 HEIGHT=13>&nbsp;Man kan skicka fler informationsenheter (bits tex) per
-                sekund i en fiber eftersom ljuset som våg har så mycket högre frekvens än
-                motsvarande för elektriska signaler. (Hundratals THZ jämfört med enstaka GHz).
-                Däremot kommer inte signalen fram snabbare, eftersom information i en vanlig koaxialkabel
-                också färdas med ljusets hastighet.</P>
-            <P><IMG SRC="Bullet7.gif" WIDTH=15 HEIGHT=13>&nbsp;Fibern läcker inte ut någon signal som kan
-                avlyssnas på något vettigt sätt, vilket elektriska ledningar gör. Omvänt
-                så är de heller inte särdeles känsliga för störningar av olika slag
-                utifrån. EMP och kraftiga magnetfält från transformatorer lämnar i princip den
-                optiska signalen oberörd. </P>
-            <P><IMG SRC="Bullet7.gif" WIDTH=15 HEIGHT=13>&nbsp;Fibern är lättare än de flesta andra
-                material, vilket kan vara bra för vissa tillämpningar</P>
-            <P><IMG SRC="Bullet7.gif" WIDTH=15 HEIGHT=13>&nbsp;Råmaterialet till optisk fiber är krossad
-                kvarts (dvs sjösand) vilket inte är någon bristavara och därför billigt.</P>
-        </DIR>
-    </FONT><B>
-        <FONT FACE="Arial" SIZE=4>
-            <P>Fiberoptik nivå 2</P>
-    </B></FONT>
-    <FONT FACE="Arial">
-        <P>För att ljuset ska ledas genom fibern krävs att infallsvinkeln mot gränsytan kärna/mantel
-            hela tiden är större än gränsvinkeln för totalreflektion. Denna ges av att
-            brytningsvinkeln är 90� (större kan den ju inte gärna bli):</P>
-        <P><IMG SRC="Image152.gif" WIDTH=257 HEIGHT=46></P>
-        <P>För att detta ska ske inuti fibern ställs vissa krav på den vinkel med vilken ljuset leds in
-            i fibern. Se fig. Man får ett största värde på a som svarar på det min sta
-            värdet på i<SUB>G</SUB> för att få totalreflektion. Sinus för den vinkeln är
-            såpass viktig att den fått ett eget namn: Numerisk Apertur eller NA:</P>
-        <P><IMG SRC="Image153.gif" WIDTH=560 HEIGHT=32></P>
-        <P>Om man sätter n<SUB>2</SUB> till n<SUB>1</SUB>-
-    </FONT>
-    <FONT FACE="Symbol">D</FONT>
-    <FONT FACE="Arial">n, och inser att </FONT>
-    <FONT FACE="Symbol">D</FONT>
-    <FONT FACE="Arial">n är litet kan det sista ledet skrivas om till:</P>
-        <P><IMG SRC="Image154.gif" WIDTH=292 HEIGHT=30></P>
-        <P><IMG SRC="Image155.gif" WIDTH=403 HEIGHT=146></P>
-        <P>NA visar alltså i vilket vinkelområde strålarna måste ligga för att kunna ledas
-            vidare. </P>
-        <P>Dett ska nu kombineras med ytterligare ett villkor, som är lite knöligare: Ljusets vågnatur
-            kommer in eftersom fibern är så liten. Vågfronter får inte vara avbrutna (av samma
-            skäl som i kapitlet om diffraktion). Betrakta nu nästa fig. Vi ser där vågor som faller
-            in med en given vinkel.
-    </FONT>
-    <FONT FACE="Arial" COLOR="#ff0000">Strålarna är röda</FONT>
-    <FONT FACE="Arial"> och får inuti fibern vinkel </FONT>
-    <FONT FACE="Symbol">q</FONT>
-    <FONT FACE="Arial">, </FONT>
-    <FONT FACE="Arial" COLOR="#000080">de vågfronter som hör till strålarna</FONT>
-    <FONT FACE="Arial"> (alltid vinkelräta mot strålarna) är blå.</P>
-        <P><IMG SRC="Image156.gif" WIDTH=534 HEIGHT=211></P>
-        <P>För att ljus ska kunna ledas i fibern måste vågfronterna före och efter första
-            reflektionen ligga rakt för varandra, dvs inte så som i fig. (Streckad fortsättning på
-            vågfront passar inte in.) Ett villkor för att de ska göra det är att skillnaden mellan
-            de bägge sträckor som är markerade med
-    </FONT>
-    <FONT FACE="Arial" COLOR="#00ff00">gröna kryss och gröna ringar</FONT>
-    <FONT FACE="Arial"> ska vara ett helt antal våglängder. </P>
-        <P>Nu måste vi inse (om vi inte ska behöva göra hela härledningen, vilket är vidrigt)
-            att de vinklar som gör att vägskillnadenb uppfyller villkoret ligger tätare och tätare
-            ju större fiber är. Om fiber är extremt liten finns det kanske inga sådana vinklar
-            alls.</P>
-        <P>Detta ska vi nu utnyttja för att göra en så kallad singelmodfiber:<BR>Först och
-            främst: Vinkeln
-    </FONT>
-    <FONT FACE="Symbol">q</FONT>
-    <FONT FACE="Arial">=0 är alltid en tillåten väg, eller mod, för ljuset, eftersom några
-        vågfrontsproblem då inte kan uppkomma. </P><IMG SRC="Image157.gif" WIDTH=479 HEIGHT=251 ALIGN="LEFT"
-            HSPACE=12>
-        <P>Välj nu diametern på fiberns kärna så liten att den förat vinkel som uppfyller
-            villkoret "grön skillnad" = heltal våglängder, är större än NA. Då
-            innebär det att det bara finns en väg ljuset kan gå i fibern, vilket är en mycket stor
-            fördel, eftersom närvaron av flera tillåtna vägar leder till flera tänkbara
-            gångtider för en puls genom fibern, med därtill hörande pulsutbreddning (dvs
-            -förstöring). Sådana fibrer kommer med det val av material som finns idag att ha
-            kärndiametrar runt 3-8�m. Manteln görs sedan mycket tjockare för att göra fibern
-            mekaniskt stabil. </P>
-        <P>Singelmodfibrer har idag en dämpning på ca0.1dB/km. Efter 300km (Sthlm-Karlstad) har alltså
-            intensiteten gått ner en faktor 1000! Det motsvarar (som kuriosum) att om havet vore lika
-            genomskinligt som fibern skulle man kunna titta ner genom ytan vid Marianergraven och se botten utan
-            egentlig dämpning.</P>
-        <P>Till
-    </FONT><A HREF="../sida2/huvudsid2.html">
-        <FONT FACE="Arial">nästa sida</FONT>
-    </A>
-    <FONT FACE="Arial"> (IR-optik)</P>
-        <P>Till
-    </FONT><A HREF="../../inledning/index.html">
-        <FONT FACE="Arial">innehållsförteckningen</FONT>
-    </A></P>
-</BODY>
-</HTML>
+            (grönt i
+            fig) kommer allt ljus att reflekteras. Idén är nu att göra en tråd av material med högre index (kärna=core)
+            omgiven av
+            material med något lägre (mantel=cladding). Metoden att leda ljus kommer nu att fungera i kärnan även om man
+            böjer den
+            måttligt.
+        </p>
+        <p class="pb-5">
+            Det finns flera fördelar med informationsöveföring i fiber jämfört med olika elektriska alternativ
+            (dubbelledare
+            och
+            koaxialkabel exvis):
+        </p>
+        <ul class="list-disc px-10">
+            <li>
+                <span>Man kan skicka fler informationsenheter (bits tex) per sekund i en fiber eftersom ljuset som våg
+                    har
+                    så mycket högre
+                    frekvens än motsvarande för elektriska signaler. (Hundratals THZ jämfört med enstaka GHz). Däremot
+                    kommer inte signalen
+                    fram snabbare, eftersom information i en vanlig koaxialkabel också färdas med ljusets
+                    hastighet.</span>
+            </li>
+            <li>
+                <span>Fibern läcker inte ut någon signal som kan avlyssnas på något vettigt sätt, vilket elektriska
+                    ledningar gör. Omvänt så
+                    är de heller inte särdeles känsliga för störningar av olika slag utifrån. EMP och kraftiga
+                    magnetfält
+                    från
+                    transformatorer lämnar i princip den optiska signalen oberörd.</span>
+            </li>
+            <li>
+                <span>Fibern är lättare än de flesta andra material, vilket kan vara bra för vissa tillämpningar</span>
+            </li>
+            <li>
+                <span>Råmaterialet till optisk fiber är krossad kvarts (dvs sjösand) vilket inte är någon bristavara och
+                    därför
+                    billigt.</span>
+            </li>
+        </ul>
+        <hr class="pt-5">
+        <h2 class="text-center text-xl pb-5">Fiberoptik nivå 2</h2>
+        <p class="pb-5">För att ljuset ska ledas genom fibern krävs att infallsvinkeln mot gränsytan kärna/mantel hela
+            tiden är
+            större än
+            gränsvinkeln för totalreflektion. Denna ges av att brytningsvinkeln är 90° (större kan den ju inte gärna
+            bli):
+        </p>
+        <img src="Image152.gif" alt="">
+        <p class="pb-5">För att detta ska ske inuti fibern ställs vissa krav på den vinkel med vilken ljuset leds in i
+            fibern. Se
+            fig.
+            Man får
+            ett största värde på a som svarar på det min sta värdet på iG för att få totalreflektion. Sinus för den
+            vinkeln
+            är
+            såpass viktig att den fått ett eget namn: Numerisk Apertur eller NA:</p>
+        <img src="Image153.gif" alt="">
+        <p class="pb-5">Om man sätter n2 till n1-Dn, och inser att Dn är litet kan det sista ledet skrivas om till:</p>
+        <img src="Image154.gif" alt="">
+        <img src="Image155.gif" alt="">
+        <p class="pb-5">NA visar alltså i vilket vinkelområde strålarna måste ligga för att kunna ledas vidare.</p>
+        <p class="pb-5">Dett ska nu kombineras med ytterligare ett villkor, som är lite knöligare: Ljusets vågnatur
+            kommer in
+            eftersom
+            fibern är
+            så liten. Vågfronter får inte vara avbrutna (av samma skäl som i kapitlet om diffraktion). Betrakta nu nästa
+            fig. Vi ser
+            där vågor som faller in med en given vinkel. Strålarna är röda och får inuti fibern vinkel q, de vågfronter
+            som
+            hör till
+            strålarna (alltid vinkelräta mot strålarna) är blå.</p>
+        <img src="Image156.gif" alt="">
+        <p class="pb-5">För att ljus ska kunna ledas i fibern måste vågfronterna före och efter första reflektionen
+            ligga rakt för
+            varandra, dvs
+            inte så som i fig. (Streckad fortsättning på vågfront passar inte in.) Ett villkor för att de ska göra det
+            är
+            att
+            skillnaden mellan de bägge sträckor som är markerade med gröna kryss och gröna ringar ska vara ett helt
+            antal
+            våglängder.</p>
+        <p class="pb-5">Nu måste vi inse (om vi inte ska behöva göra hela härledningen, vilket är vidrigt) att de
+            vinklar som gör att
+            vägskillnadenb uppfyller villkoret ligger tätare och tätare ju större fiber är. Om fiber är extremt liten
+            finns
+            det
+            kanske inga sådana vinklar alls.</p>
+        <p class="pb-5">Detta ska vi nu utnyttja för att göra en så kallad singelmodfiber:
+            Först och främst: Vinkeln q=0 är alltid en tillåten väg, eller mod, för ljuset, eftersom några
+            vågfrontsproblem
+            då inte
+            kan uppkomma.</p>
+        <img class="float-left" src="Image157.gif" alt="">
+        <p class="pb-5">Välj nu diametern på fiberns kärna så liten att den förat vinkel som uppfyller villkoret "grön
+            skillnad" =
+            heltal
+            våglängder, är större än NA. Då innebär det att det bara finns en väg ljuset kan gå i fibern, vilket är en
+            mycket stor
+            fördel, eftersom närvaron av flera tillåtna vägar leder till flera tänkbara gångtider för en puls genom
+            fibern,
+            med
+            därtill hörande pulsutbreddning (dvs -förstöring). Sådana fibrer kommer med det val av material som finns
+            idag
+            att ha
+            kärndiametrar runt 3-8µm. Manteln görs sedan mycket tjockare för att göra fibern mekaniskt stabil.</p>
+        <p class="pb-5">Singelmodfibrer har idag en dämpning på ca0.1dB/km. Efter 300km (Sthlm-Karlstad) har alltså
+            intensiteten gått
+            ner
+            en
+            faktor 1000! Det motsvarar (som kuriosum) att om havet vore lika genomskinligt som fibern skulle man kunna
+            titta
+            ner
+            genom ytan vid Marianergraven och se botten utan egentlig dämpning.</p>
+    </main>
+</body>
+
+</html>
