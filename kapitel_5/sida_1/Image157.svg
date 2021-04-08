@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 479 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M51.337,76.25L51.337,159.436L25.125,217.386L54.52,190.579C54.52,190.579 78.957,221 99.587,221L401.75,221C428.38,221 450,199.38 450,172.75L450,76.25C450,49.62 428.38,28 401.75,28L99.587,28C72.957,28 51.337,49.62 51.337,76.25Z" style="fill:rgb(255,255,0);stroke:rgb(255,0,0);stroke-width:6.67px;"/>
+    <g transform="matrix(1,0,0,1,46.1964,-1.09125)">
+        <text x="65.701px" y="88.928px" style="font-family:'EmojiOneColor', 'EmojiOne';font-size:12px;">✖</text>
+    </g>
+    <g transform="matrix(0.90117,0,0,0.90117,12.233,5.75559)">
+        <text x="77.518px" y="65.284px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">Dämpning i dB deﬁneras som</text>
+        <text x="77.518px" y="95.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">10  log(I</text>
+        <text x="182.51px" y="95.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:10.357px;">efter</text>
+        <text x="203.234px" y="95.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">/I</text>
+        <text x="219.38px" y="95.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:10.357px;">före</text>
+        <text x="237.227px" y="95.292px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">)</text>
+        <text x="77.518px" y="125.3px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">10dB betyder alltså dämpning</text>
+        <text x="77.518px" y="155.307px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">med en faktor 10</text>
+        <text x="77.518px" y="185.315px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">20dB betyder en faktor 100</text>
+        <text x="77.518px" y="215.323px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:29.057px;">3dB betyder en faktor 2</text>
+    </g>
+</svg>
