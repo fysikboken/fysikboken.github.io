@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 290 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.085,0,0,1.04274,-0.0502392,-3.70016)">
+        <ellipse cx="6.814" cy="83.342" rx="5.542" ry="3.242" style="fill:rgb(0,0,255);stroke:black;stroke-width:1.25px;"/>
+    </g>
+    <g transform="matrix(2.06843,0,0,1.98785,13.0693,-84.406)">
+        <ellipse cx="6.814" cy="83.342" rx="5.542" ry="3.242" style="fill:rgb(0,0,255);stroke:black;stroke-width:0.66px;"/>
+    </g>
+    <g transform="matrix(3.30776,0,0,3.17891,36.2494,-188.177)">
+        <ellipse cx="6.814" cy="83.342" rx="5.542" ry="3.242" style="fill:rgb(0,0,255);stroke:black;stroke-width:0.41px;"/>
+    </g>
+    <g transform="matrix(0.982143,-6.51171e-19,6.51171e-19,0.9675,-6.8218,2.16003)">
+        <path d="M167.821,12.769C168.266,8.311 178.916,4.714 191.93,4.714C204.944,4.714 215.594,8.311 216.039,12.769C220.166,9.041 232.41,9.097 243.68,12.973C254.95,16.848 261.153,23.135 257.797,27.128C264.501,25.128 275.056,28.823 281.563,35.535C288.07,42.248 288.164,49.54 281.905,51.998C289.39,52.263 295.429,58.606 295.429,66.357C295.429,74.108 289.39,80.451 281.905,80.716C288.164,83.174 288.07,90.466 281.563,97.178C275.056,103.891 264.501,107.586 257.797,105.586C261.153,109.579 254.95,115.866 243.68,119.741C232.41,123.617 220.166,123.673 216.039,119.945C215.594,124.403 204.944,128 191.93,128C178.916,128 168.266,124.403 167.821,119.945C163.694,123.673 151.45,123.617 140.18,119.741C128.91,115.866 122.707,109.579 126.063,105.586C119.359,107.586 108.804,103.891 102.297,97.178C95.79,90.466 95.696,83.174 101.955,80.716C94.47,80.451 88.431,74.108 88.431,66.357C88.431,58.606 94.47,52.263 101.955,51.998C95.696,49.54 95.79,42.248 102.297,35.535C108.804,28.823 119.359,25.128 126.063,27.128C122.707,23.135 128.91,16.848 140.18,12.973C151.45,9.097 163.694,9.041 167.821,12.769Z" style="fill:rgb(0,0,255);stroke:black;stroke-width:1.37px;"/>
+    </g>
+    <g transform="matrix(0.896524,0,0,0.896524,28.8968,8.37329)">
+        <text x="105.905px" y="42.35px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.111px;fill:rgb(255,255,0);">Dubbelbrytning</text>
+        <text x="105.905px" y="64.151px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.111px;fill:rgb(255,255,0);">heter</text>
+        <text x="105.905px" y="85.952px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.111px;fill:rgb(255,255,0);">birefringence på</text>
+        <text x="105.905px" y="107.754px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.111px;fill:rgb(255,255,0);">engelska</text>
+    </g>
+</svg>
