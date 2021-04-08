@@ -1,25 +1,52 @@
-<HTML>
-<HEAD>
-    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-    <TITLE>Plancks lag ser f�r svarta kroppat ut s� h�r:</TITLE>
-    <META NAME="Template" CONTENT="D:\Program\Microsoft Office\Office\html.dot">
-</HEAD>
-<BODY LINK="#0000ff" VLINK="#800080">
-<FONT FACE="Arial">
-    <P>Plancks lag ser för svarta kroppat ut så här:</P>
-    <P><IMG SRC="../Image165.gif" WIDTH=150 HEIGHT=58></P>
-    <P>För grå kroppar multplicerar man med den konstanta a och för färgade kroppar med den
-        våglängdsberoende a.</P>
-    <P>Man kan plotta kurvan med hjälp av en
-</FONT><A HREF="planck-2.html">
-    <FONT FACE="Arial">matlabsnutt</FONT>
-</A></P>
-<FONT FACE="Arial">
-    <P>Man kan till och med
-</FONT><A HREF="plancksurf.html">
-    <FONT FACE="Arial">få</FONT>
-</A>
-<FONT FACE="Arial"> en ytplot av strålningen som funktion av våglängd och temperatur</P>
-</FONT>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kapitel 5.2 Planck</title>
+    <meta name="description" content="En fysikbok för studenter på KTH" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#111827">
+    <meta name="apple-mobile-web-app-title" content="Fysikboken">
+    <meta name="application-name" content="Fysikboken">
+    <meta name="msapplication-TileColor" content="#111827">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#111827">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Kod för navigering-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/header");
+        });
+    </script>
+    <!--Slut på kod för navigering-->
+    <div class="divide-gray-900">
+        <h1 class="text-center text-3xl py-3">Fiberoptik</h1>
+        <hr class="pb-5">
+    </div>
+
+    <main class="px-10 divide-gray-900">
+       <p class="pb-5">
+        Plancks lag ser för svarta kroppat ut så här:
+       </p>
+       <img src="../Image165.gif" alt="Formel">
+       <p class="pb-5">
+        För grå kroppar multplicerar man med den konstanta a och för färgade kroppar med den våglängdsberoende a.
+        Man kan plotta kurvan med hjälp av matlab.
+        Man kan till och med få en ytplot av strålningen som funktion av våglängd och temperatur.
+       </p>
+       
+    </main>
+</body>
+
+</html>
