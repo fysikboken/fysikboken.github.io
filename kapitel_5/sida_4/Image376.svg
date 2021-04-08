@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 185 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.11815,0,0,1,-21.5029,0)">
+        <ellipse cx="177.519" cy="4.589" rx="4.481" ry="3.589" style="fill:rgb(0,204,255);stroke:rgb(0,0,128);stroke-width:1.26px;"/>
+    </g>
+    <g transform="matrix(1.99601,0,0,1.5527,-192.443,9.9758)">
+        <ellipse cx="177.519" cy="4.589" rx="4.481" ry="3.589" style="fill:rgb(0,204,255);stroke:rgb(0,0,128);stroke-width:0.75px;"/>
+    </g>
+    <g transform="matrix(3.01492,0,0,2.34531,-393.075,20.3292)">
+        <ellipse cx="177.519" cy="4.589" rx="4.481" ry="3.589" style="fill:rgb(0,204,255);stroke:rgb(0,0,128);stroke-width:0.49px;"/>
+    </g>
+    <g transform="matrix(1.22754,0,0,1.2069,-15.021,-25.5429)">
+        <path d="M66.711,54.144C66.711,50.16 73.289,46.926 81.392,46.926C89.494,46.926 96.073,50.16 96.073,54.144C99.587,50.694 108.138,49.757 115.155,52.053C122.172,54.348 125.015,59.013 121.5,62.463C127.588,60.471 135.82,62.082 139.871,66.059C143.922,70.035 142.269,74.88 136.181,76.872C143.211,76.872 148.918,80.6 148.918,85.191C148.918,89.782 143.211,93.51 136.181,93.51C142.269,95.502 143.922,100.347 139.871,104.323C135.82,108.3 127.588,109.911 121.5,107.919C125.015,111.369 122.172,116.034 115.155,118.329C108.138,120.625 99.587,119.688 96.073,116.238C96.073,120.222 89.494,123.456 81.392,123.456C73.289,123.456 66.711,120.222 66.711,116.238C63.196,119.688 54.646,120.625 47.629,118.329C40.612,116.034 37.769,111.369 41.284,107.919C35.196,109.911 26.964,108.3 22.913,104.323C18.861,100.347 20.515,95.502 26.603,93.51C19.573,93.51 13.866,89.782 13.866,85.191C13.866,80.6 19.573,76.872 26.603,76.872C20.515,74.88 18.861,70.035 22.913,66.059C26.964,62.082 35.196,60.471 41.284,62.463C37.769,59.013 40.612,54.348 47.629,52.053C54.646,49.757 63.196,50.694 66.711,54.144Z" style="fill:rgb(0,204,255);stroke:rgb(0,0,128);stroke-width:1.1px;"/>
+    </g>
+    <g transform="matrix(1.23463,0,0,1.23463,8.92593,-16.1985)">
+        <text x="24.799px" y="64px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16.953px;fill:rgb(0,0,255);">V<tspan x="35.8px 40.51px " y="64px 64px ">il</tspan>ket lätt</text>
+        <text x="24.799px" y="81.507px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16.953px;fill:rgb(0,0,255);">inses!!</text>
+        <text x="24.799px" y="99.014px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16.953px;fill:rgb(0,0,255);">Höhöhö!</text>
+    </g>
+</svg>
